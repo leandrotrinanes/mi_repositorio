@@ -33,7 +33,7 @@
 
 
 //IF
-$type: blanco;
+$type: rojo;
 .texto--index {
   @if $type == negro {
     color: black;
