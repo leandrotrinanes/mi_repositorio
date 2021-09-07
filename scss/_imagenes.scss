@@ -1,0 +1,55 @@
+/* Imagenes Index */
+.infoArgentina{
+   margin-top: 50px;
+}
+.infoArgentina__mapa{  
+   padding: 15px;
+   opacity: 0.7;
+}
+.infoArgentina__mapa:hover{
+   opacity: 1;
+}
+.detinos__img{
+   width: 200px;
+   height: auto;
+}
+
+/*Imagenes excursiones*/
+.galeria{
+    display: flex;
+    background-color: darkkhaki;
+    width: 100%;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    border: 2px solid black;
+  }
+ .galeria__img{
+    display: flex;
+    border-radius: 5%;
+    margin: 15px;
+    width: 200px;
+    height: auto;
+    align-items: center;
+    &:hover{
+      transform: scale(1.5, 1.5);
+   }
+ }
+ .img-responsive{
+   width: 100%;
+   height: auto;
+   opacity: 0.6;
+}
+
+#paisaje{
+   display: block;
+   width: 500px;
+   height: auto;
+   margin: 50px auto;
+}
+
+.modal__img{
+   width: 100%;
+}
