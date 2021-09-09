@@ -132,6 +132,11 @@ footer {
   footer .footer-col {
     margin-bottom: 50px; }
 
+.form {
+  padding: 10px; }
+  .form input {
+    margin-bottom: 20px; }
+
 /* Cards */
 .card--size {
   min-height: 450px; }

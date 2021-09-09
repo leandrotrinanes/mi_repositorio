@@ -1,0 +1,12 @@
+Para implementar SEO en el sitio se relizaron las siguientes acciones:
+
+1) Se completaron los atributos "Alt" de cada una de las imagenes en todas las paginas del sitio.
+2) Se agrego la etiqueta "title" con un titulo acorde a cada una de las paginas.
+3) Se verifico la no existencia de mas de una etiqueta "H1" en cada una de las paginas.
+4) Se agregaron links a las portadas de las paginas de las redes (en forma momentanea hasta crear los perfiles coorespondientes).
+5) Se agrego la etiqueta "Meta description" en cada una de las paginas del sitio.
+6) Se agrego la etiqueta "Meta Keywords" en cada una de las paginas del sitio.
+7) Se verifico el correcto tamaño y peso de las mayoria de las imagenes, de todos modos son imagenes a modificar por imagenes definitivas.
+8) Se verifico la existencia de archivos que no se utilizaban en el sitio, los cuales fueron eliminados.
+9) Se verificó la estructura de las carpetas y sub-carpetas. 
+10) Se implemento una pagina personalizada 404.HTML. 
