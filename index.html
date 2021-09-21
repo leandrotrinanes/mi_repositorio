@@ -34,7 +34,7 @@
   <header>
       <div class="container-fluid p-0">
         
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
           <img class="menu__logo" src="../media/logo.png" alt="logo">
           <h1 class="menu__titulo">Argentina Travel and Tours</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,7 +77,7 @@
   </header>
 
 <!-- CAROUSEL INDEX -->
-  <section>
+  <section class="container-fluid margen">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner col-xs-12 col-sm-6 col-md-9 col-lg-9">
             <div class="carousel-item active">
@@ -101,38 +101,28 @@
         </div>
   </section>
 
-  <div class="container-fluid">
+  <div class="container mt-5">
     <section class="row infoArgentina">
-      <div class="col-xs-12 col-md-8 text-center">
-        <h2 class="infoArgentina__titulo--fuente texto--size_6">Conociendo Argentina</h2>
-        <p class="infoArgentina__texto--fuente texto--size_3">Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Podras encontrar variedad de ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje. Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite. Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.</p>
-      </div>
-      <img class="col-xs-12 col-md-4  infoArgentina__mapa img_fluid" src="../media/mapaargentina.png" alt="Mapa Argentina">
-       
+      <div class="col-12 text-center">
+        <h2 class="infoArgentina__titulo--fuente texto--size_6  align-content-center justify-content-center">Conociendo Argentina</h2>
+        <p class="infoArgentina__texto--fuente texto--size_3  align-content-center justify-content-center">Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Podras encontrar variedad de ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje. Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite. Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.</p>
+      </div>     
     </section>
   </div>
 
-  <div class="container-fluid">
-      <div class="row">
-          <div class="d-grid gap-2 col-6 mx-auto">
-              <img  src="../media/mountain-4898411_1920.jpg" data-aos="fade-up-right" data-aos-duration="2000" class="img-responsive img-thumbnail" alt="Montaña Sur Argentino">
-              <button class="btn btn-primary" type="button">Viaje sugerido</button>
-              <img src="../media/brazil-1128568_1920.jpg" data-aos="fade-up-left" data-aos-duration="2000" class="img-responsive" alt="Cataratas del Iguazú">
-              <button class="btn btn-primary" type="button">Viaje sugerido</button>
-
-          </div>
-      </div>
-  </div>
-
-  <div class="container-fluid">
+  <section class="container-fluid">
     <div class="row">
-      <aside class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p class="infoArgentina__textoindex texto--size_4 texto--index">Es el destino turístico preferido por muchos extranjeros debido a un inmenso territorio, la variedad de su comportamiento climático y las maravillas naturales que posee. Argentina es un país que ha ido presentado un notable crecimiento en su turismo nacional y es pionera en el desarrollo de hoteles y lugares atractivos para los visitantes.</p>
-      </aside>
+      <div class="col-12 col-md-6">      
+              <img  src="../media/mountain-4898411_1920.jpg" data-aos="fade-up-right" data-aos-duration="2000" class="col-12 col-md-6 img-responsive" alt="Montaña Sur Argentino">
+              <button class="btn btn-primary col-12" type="button">Viaje sugerido</button>
+      </div> 
+      <div class="col-12 col-md-6">   
+              <img src="../media/brazil-1128568_1920.jpg" data-aos="fade-up-left" data-aos-duration="2000" class="col-12 col-md-6 img-responsive" alt="Cataratas del Iguazú">
+              <button class="btn btn-primary col-12" type="button">Viaje sugerido</button>
+      </div>
     </div>
-  </div>
-
-  <footer class="text-center footer-style">
+</section>
+  <footer class="text-center footer-style margen">
       <div class="container">
           <div class="row">
               <div class="col-md-4 footer-col">

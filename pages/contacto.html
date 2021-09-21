@@ -34,7 +34,7 @@
   <header>
       <div class="container-fluid p-0">
         
-      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top opacity">
           <img class="menu__logo" src="../media/logo.png" alt="">
           <h1 class="menu__titulo">Argentina Travel and Tours</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,45 +76,60 @@
       </div>
   </header>
         
-  <section class="container form">
-      <div class="row"><h2 class="col-12 text-center">Contacto</h2></div>
+  <main class="container-fluid margen p-5">
+    <div class="row">
+      <section class="col-12 col-xl-6">
+        <h2 class="text-center">Contactanos</h2>
+        <p class="text-center">Cualquier consulta que te surja podes contactarnos completando el formulario</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4644.713232588357!2d-58.382750107637065!3d-34.59636673710281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab7cd4ef691%3A0xdaffc0b246e25355!2sMarcelo%20Torcuato%20de%20Alvear%20925%2C%20C1058%20AAM%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1632181513565!5m2!1ses-419!2sar" class="img-fluid mapaContacto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
-      <form action="#" method="POST">
-        <div class="row">          
-          <div class="col-12 col-md-6">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        <ul>
+          <li>Direccion: Marcelo T de Alvear 925, 1ro "A". Ciudad Autónoma de Buenos Aires</li>
+          <li>Tel: 011-15-123-1234</li>
+          <li>Correo Electronico: Contacto@argentinatravelandtours.com.ar</li>
+        </ul>
+      </section>
+
+      <section class="col-12 col-xl-6">
+        <form action="#" method="POST">
+          <div class="row m-5">          
+            <div class="col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            </div>
+            <div class="col-12 col-md-6">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            </div>
+          </div> 
+          <div class="row m-5">  
+            <div class="col-12 col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12 col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
           </div>
-          <div class="col-12 col-md-6">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-          </div>
-        </div> 
-        <div class="row">  
-          <div class="col-12 col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-12 col-md-6">
-            <label for="inputCity" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-        </div>
-        <div class="row">
           
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optradio">residente
-          </label>
+          <div class="row m-5">
+            
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio">residente
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optradio">extranjero
+            </label>
+          </div>      
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optradio">extranjero
-          </label>
-        </div>      
-      </div>
-    </form>
-  </section>
+      </form>
+    </section>
+  </div>
+  </main>
 
-  <footer class="text-center footer-style">
+  <footer class="text-center footer-style margen">
     <div class="container">
         <div class="row">
             <div class="col-md-4 footer-col">

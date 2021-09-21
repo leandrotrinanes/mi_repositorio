@@ -6,8 +6,11 @@
 
 body {
   width: 100%;
-  background-color: lightslategray;
+  background-color: #fafffd;
   font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.margen {
+  margin-top: 150px; }
 
 .menu__logo {
   height: auto;
@@ -22,6 +25,10 @@ body {
 .menu__link {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.25rem; }
+
+.opacity {
+  background-color: #c5cbd3;
+  opacity: 0.9; }
 
 /* Textos */
 .infoArgentina__titulo--fuente {
@@ -59,6 +66,7 @@ body {
   margin-top: 50px; }
 
 .infoArgentina__mapa {
+  max-width: 400px;
   padding: 15px;
   opacity: 0.7; }
 
@@ -112,6 +120,11 @@ body {
 .modal__img {
   width: 100%; }
 
+.mapaContacto {
+  width: 100%;
+  min-height: 400px;
+  height: auto; }
+
 /* footer */
 .footer-style {
   padding-top: 50px;
@@ -140,39 +153,3 @@ footer {
 /* Cards */
 .card--size {
   min-height: 450px; }
-
-.texto--index {
-  color: red; }
-
-.texto--size_1 {
-  font-size: 0.5em; }
-
-.texto--size_2 {
-  font-size: 1em; }
-
-.texto--size_3 {
-  font-size: 1.5em; }
-
-.texto--size_4 {
-  font-size: 2em; }
-
-.texto--size_5 {
-  font-size: 2.5em; }
-
-.texto--size_6 {
-  font-size: 3em; }
-
-.icono-40px {
-  font-size: 40px;
-  height: 40px;
-  width: 40px; }
-
-.icono-50px {
-  font-size: 50px;
-  height: 50px;
-  width: 50px; }
-
-.icono-80px {
-  font-size: 80px;
-  height: 80px;
-  width: 80px; }
